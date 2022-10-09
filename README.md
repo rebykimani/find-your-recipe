@@ -8,14 +8,14 @@ This is a responsive web app created using plain Javascript (React-Library), HTM
 This app will allow users to find recipe of their preferred meals by typing keywords, it also helps them understand what to budget for and shop.
 
 ## By Rebecca Kimani
-###Requirements
+### Requirements
 1.Access to a computer, mobile phone or any other gadget
 
 2.Internet access
 
 3.Text editor eg Visual Studio Code
 
-###Getting Files
+### Getting Files
 
 1.Fork the repo
 
@@ -41,24 +41,24 @@ Clone to this repo by running the command : git clone git@github.com:rebykimani/
 
 Unzip the downloaded files in a folder of choice. *Open the index.html file from the zipped file with any browser.
 
-##Live Link
+## Live Link
 
 Or you can access the web application directly via this <a>find your recipe</a>
 
-##Dependencies
+## Dependencies
 
 1.Assets 
 2.index.html 
 3.README.md
 
-##Technologies Used
+## Technologies Used
 HTML CSS JAVASCRIPT, REACT
 
-##Contact Details
+## Contact Details
 
 Email: rebecca.kimani@student.moringaschool.com
 
-#License 
+# License 
 
 MIT License
 
