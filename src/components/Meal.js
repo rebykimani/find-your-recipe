@@ -3,7 +3,7 @@ import MealItem from "./MealItem";
 import RecipeIndex from "./RecipeIndex";
 
 const Meal=() =>{
-    const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/search.php?f=a");
+    const [url, setUrl] = useState("https://dbjson-backend.herokuapp.com/meals");
     const [item, setItem]= useState();
     const [show, setShow]= useState(false);
     const [search, setSearch]= useState("");
@@ -12,21 +12,21 @@ const Meal=() =>{
       fetch(url)
         .then(response=>response.json())
         .then(data=> {
-            console.log(data.meals);
-            setItem(data.meals);
+            console.log("RESPONSE: ", data);
+            setItem(data);
             setShow(true);
         })
     },[url]);
 
     const setIndex=(alpha)=>{
         setUrl(
-            `https://www.themealdb.com/api/json/v1/1/search.php?f=${alpha}`
+            `https://dbjson-backend.herokuapp.com/meals?f=${alpha}`
             );
     }
     
     const searchRecipe=(e)=>{
         if(e.key==="Enter"){
-            setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
+            setUrl(`https://dbjson-backend.herokuapp.com/meals?s=${search}`)
         }
     }
 
