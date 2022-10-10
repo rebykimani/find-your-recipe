@@ -190,280 +190,280 @@ function AddMealRecipe({ handleChange, handleSubmit }) {
               value={mealForm.strIngredient4}
             /> 
             <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient5: e.target.value})}
               type="text"
               name="strIngredient5"
               placeholder="Ingredient 5"
               value={mealForm.strIngredient5}
             />       
             <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient6: e.target.value})}
               type="text"
               name="strIngredient6"
               placeholder="Ingredient 6"
               value={mealForm.strIngredient6}
             />      
                  <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient7: e.target.value})}
               type="text"
               name="strIngredient7"
               placeholder="Ingredient 7"
               value={mealForm.strIngredient7}
             /> 
                  <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient8: e.target.value})}
               type="text"
               name="strIngredient8"
               placeholder="Ingredient 8"
               value={mealForm.strIngredient8}
             /> 
                  <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient9: e.target.value})}
               type="text"
               name="strIngredient9"
               placeholder="Ingredient 9"
               value={mealForm.strIngredient9}
             /> 
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient10: e.target.value})}
               type="text"
               name="strIngredient10"
               placeholder="Ingredient 10"
               value={mealForm.strIngredient10}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient11: e.target.value})}
               type="text"
               name="strIngredient11"
               placeholder="Ingredient 11"
               value={mealForm.strIngredient11}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient12: e.target.value})}
               type="text"
               name="strIngredient12"
               placeholder="Ingredient 12"
               value={mealForm.strIngredient12}
             />
               <input
-              onChange={handleChange}
+              onChange= {e=>setMealForm({ strIngredient13: e.target.value})}
               type="text"
               name="strIngredient13"
               placeholder="Ingredient 13"
               value={mealForm.strIngredient13}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient14: e.target.value})}
               type="text"
               name="strIngredient14"
               placeholder="Ingredient 14"
               value={mealForm.strIngredient14}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient15: e.target.value})}
               type="text"
               name="strIngredient15"
               placeholder="Ingredient 15"
               value={mealForm.strIngredient15}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient16: e.target.value})}
               type="text"
               name="strIngredient16"
               placeholder="Ingredient 16"
               value={mealForm.strIngredient16}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient17: e.target.value})}
               type="text"
               name="strIngredient17"
               placeholder="Ingredient 17"
               value={mealForm.strIngredient17}
             />
               <input
-              onChange={handleChange}
+              onChange= {e=>setMealForm({ strIngredient18: e.target.value})}
               type="text"
               name="strIngredient18"
               placeholder="Ingredient 18"
               value={mealForm.strIngredient18}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient19: e.target.value})}
               type="text"
               name="strIngredient19"
               placeholder="Ingredient 19"
               value={mealForm.strIngredient19}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient20: e.target.value})}
               type="text"
               name="strIngredient20"
               placeholder="Ingredient 20"
               value={mealForm.strIngredient20}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure1: e.target.value})}
               type="text"
               name="strMeasure1"
               placeholder="Measure 1"
               value={mealForm.strMeasure1}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure2: e.target.value})}
               type="text"
               name="MstrMeasure2"
               placeholder="Measure 2"
               value={mealForm.strMeasure2}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure3: e.target.value})}
               type="text"
               name="strMeasure1"
               placeholder="Measure 3"
               value={mealForm.strMeasure3}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure4: e.target.value})}
               type="text"
               name="strMeasure4"
               placeholder="Measure 4"
               value={mealForm.strMeasure4}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure5: e.target.value})}
               type="text"
               name="strMeasure5"
               placeholder="Measure 5"
               value={mealForm.strMeasure5}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure6: e.target.value})}
               type="text"
               name="strMeasure6"
               placeholder="Measure 6"
               value={mealForm.strMeasure6}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure7: e.target.value})}
               type="text"
               name="strMeasure7"
               placeholder="Measure 7"
               value={mealForm.strMeasure7}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure8: e.target.value})}
               type="text"
               name="strMeasure8"
               placeholder="Measure 8"
               value={mealForm.strMeasure8}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure9: e.target.value})}
               type="text"
               name="strMeasure9"
               placeholder="Measure 9"
               value={mealForm.strMeasure9}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure10: e.target.value})}
               type="text"
               name="strMeasure10"
               placeholder="Measure 10"
               value={mealForm.strMeasure10}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure11: e.target.value})}
               type="text"
               name="strMeasure11"
               placeholder="Measure 11"
               value={mealForm.strMeasure11}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient12: e.target.value})}
               type="text"
               name="strMeasure12"
               placeholder="Measure 12"
               value={mealForm.strMeasure12}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure13: e.target.value})}
               type="text"
               name="strMeasure13"
               placeholder="Measure 13"
               value={mealForm.strMeasure13}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure14: e.target.value})}
               type="text"
               name="strMeasure14"
               placeholder="Measure 14"
               value={mealForm.strMeasure14}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure15: e.target.value})}
               type="text"
               name="strMeasure15"
               placeholder="Measure 15"
               value={mealForm.strMeasure15}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strIngredient16: e.target.value})}
               type="text"
               name="strMeasure16"
               placeholder="Measure 16"
               value={mealForm.strMeasure16}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure17: e.target.value})}
               type="text"
               name="strMeasure17"
               placeholder="Measure 17"
               value={mealForm.strMeasure17}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure18: e.target.value})}
               type="text"
               name="strMeasure18"
               placeholder="Measure 18"
               value={mealForm.strMeasure18}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure19: e.target.value})}
               type="text"
               name="strMeasure19"
               placeholder="Measure 19"
               value={mealForm.strMeasure19}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strMeasure20: e.target.value})}
               type="text"
               name="strMeasure20"
               placeholder="Measure 20"
               value={mealForm.strMeasure20}
             />
               <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strSource: e.target.value})}
               type="text"
               name="strSource"
               placeholder="Source"
               value={mealForm.strSource}
             />
             <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strImageSource: e.target.value})}
               type="text"
               name="strImageSource"
               placeholder="Image Source"
               value={mealForm.strImageSource}
             />
             <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ strCreativeCommonsConfirmed: e.target.value})}
               type="text"
               name="strCreativeCommonsConfirmed"
               placeholder="Creative Commons"
               value={mealForm.strCreativeCommonsConfirmed}
             />
                <input
-              onChange={handleChange}
+              onChange={e=>setMealForm({ dateModified: e.target.value})}
               type="dateModified"
               name="date"
               value={mealForm.dateModified}
