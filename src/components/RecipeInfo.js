@@ -1,13 +1,12 @@
-
-
 import React, { useState } from "react";
-import { useParams } from "react";
+import { useParams } from "react-router-dom";
+
 let vid = "";
 const RecipeInfo = () => {
   const [item, setItem] = useState();
   const { MealId } = useParams();
   if (MealId !== "") {
-    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${MealId}`)
+    fetch(`https://dbjson-backend.herokuapp.com/meals?=${MealId}`)
       .then((res) => res.json())
       .then((data) => {
         setItem(data.meals[0]);
