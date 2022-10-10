@@ -3,7 +3,13 @@ import React from "react";
 function AddMealRecipe({ handleChange, handleSubmit, mealForm}) {
     return (
       <div className="ui segment add-recipe">
-        <form className="ui form" onSubmit={handleSubmit}>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+
+  <form className="ui form" onSubmit={handleSubmit}>
           <div className="inline fields">
             <input
               onChange={handleChange}
@@ -231,153 +237,135 @@ function AddMealRecipe({ handleChange, handleSubmit, mealForm}) {
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 5"
+              placeholder="Measure 5"
               value={mealForm.strMeasure5}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 6"
+              placeholder="Measure 6"
               value={mealForm.strMeasure6}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 7"
+              placeholder="Measure 7"
               value={mealForm.strMeasure7}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 8"
+              placeholder="Measure 8"
               value={mealForm.strMeasure8}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 9"
+              placeholder="Measure 9"
               value={mealForm.strMeasure9}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 10"
+              placeholder="Measure 10"
               value={mealForm.strMeasure10}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 11"
+              placeholder="Measure 11"
               value={mealForm.strMeasure11}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 12"
+              placeholder="Measure 12"
               value={mealForm.strMeasure12}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 13"
+              placeholder="Measure 13"
               value={mealForm.strMeasure13}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 14"
+              placeholder="Measure 14"
               value={mealForm.strMeasure14}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 15"
+              placeholder="Measure 15"
               value={mealForm.strMeasure15}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 16"
+              placeholder="Measure 16"
               value={mealForm.strMeasure16}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 17"
+              placeholder="Measure 17"
               value={mealForm.strMeasure17}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 18"
+              placeholder="Measure 18"
               value={mealForm.strMeasure18}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 19"
+              placeholder="Measure 19"
               value={mealForm.strMeasure19}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Measure 20"
+              placeholder="Measure 20"
               value={mealForm.strMeasure20}
             />
               <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Source"
+              placeholder="Source"
               value={mealForm.strSource}
             />
             <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              step="0.01"
+              type="text"
+              name="Image source"
+              placeholder="Image Source"
               value={mealForm.strImageSource}
             />
             <input
               onChange={handleChange}
-              type="number"
-              name="amount"
-              placeholder="Amount"
+              type="text"
+              name="Creative commons"
+              placeholder="Creative Commons"
               value={mealForm.strCreativeCommonsConfirmed}
             />
                <input
@@ -391,6 +379,8 @@ function AddMealRecipe({ handleChange, handleSubmit, mealForm}) {
             Add Meal Recipe
           </button>
         </form>
+        </div>
+  </div>
       </div>
     );
   }
