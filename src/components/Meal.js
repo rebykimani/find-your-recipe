@@ -105,7 +105,7 @@ const Meal=() =>{
     <>
      <div className="main">
             <div className="heading">
-                <h1><span>Mama's</span>-Recipe</h1>
+                <h1><span>Your Favorite</span>-Recipe</h1>
                 <h2>Type your Food Recipe and Search</h2>
             </div>
             <div className="searchBox">
@@ -121,7 +121,7 @@ const Meal=() =>{
             <div className="indexContainer">
                 <RecipeIndex alphaIndex={(alpha)=>setIndex(alpha)}/>
             </div>
-            
+
             <AddMealRecipe
                 onChange={e=>setMealForm(e.target.value)} onKeyPress={handleSubmit}
                 mealForm={mealForm}
