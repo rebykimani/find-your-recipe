@@ -4,7 +4,7 @@ function AddMealRecipe({ handleChange, handleSubmit, mealForm}) {
     return (
       <div className="ui segment add-recipe">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
+            Add meal recipe
         </button>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
