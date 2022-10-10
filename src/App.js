@@ -1,7 +1,7 @@
 import React from "react";
 import Meal from "./components/Meal";
 import RecipeInfo from "./components/RecipeInfo";
-import {Routes, Route} from "react"
+import {Routes, Route} from "react-router-dom";
 
 function App() {
   return (
