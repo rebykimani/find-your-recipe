@@ -43,7 +43,7 @@ Unzip the downloaded files in a folder of choice. *Open the index.html file from
 
 ## Live Link
 
-Or you can access the web application directly via this <a>https://find-your-recipe-app.herokuapp.com/</a>
+Or you can access the web application directly via this <a>git@github.com:rebykimani/find-your-recipe.git/</a>
 
 ## Dependencies
 
